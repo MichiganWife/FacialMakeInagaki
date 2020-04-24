@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width:1170px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+  z-index:10;
+}  
+
+.header-left {
+  float: left;
+  color: white;  
+}
+
+.header-left h1 {
+  margin-top: 8px;
+}
+
+.header-right {
+  float: right;
+  color: white;
+  margin-top: 8px;
+}
+
+.header-right a {
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius:4px;
+}
+
+.header-right a:hover {
+  opacity:0.8;
+}
+
+.header-right p {
+  margin: 0;
+}
+
+.top-wrapper h1 {
+  margin-top: 0;
+  color: white;
+  padding-top: 230px;
+  padding-left: 50px;
+  font-weight: normal;
+  text-shadow: 1px 2px 3px #333;
+}
+
+.top-wrapper {
+  background-image: url("../img/DSCF5167.JPG");
+  background-size: cover;
+  height: 600px;
+}
+
+.top-wrapper a {
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  margin-left: 50px;
+}
+
+.top-wrapper a:hover {
+  opacity: 0.8;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu li a {
+  display: inline-block;
+  width: 234px;
+  text-align: center;
+  padding: 8px 0;
+  color: #333333;
+  text-decoration: none;
+  border-top: 1px sold #333;
+  border-bottom: 1px solid green;
+}
+
+.menu li a.active {
+  color: #333333; 
+  border-bottom: 3px solid #333;
+}
+
+.menu li a:not(.active):hover {
+  opacity: 0.5;
+  transition: opacity 0.4s;
+  border-bottom: 2px solid #333;
+}
+
+.content.active {
+  background: 
+  color: #333333;
+  min-height: 150px;
+  padding: 12px;
+  display: block;
+}
+
+.content {
+  display: none;
+}
+
+#about h1 {
+  color: rgba(34, 49, 52, 0.9);
+}
+
+#about p span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#about h1 {
+  padding-left: 10px;
+  border-left: 5px solid green;
+}
+
+.aboutus h1 {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.kaori-image {
+  height: 300px;
+  overflow: hidden;
+}
+
+.kaori-image img {
+  width: 300px
+}
+
+.kaori-info {
+  display: flex;
+}
+
+.aboutus-explanation {
+  width: 800px;
+  margin-top: 50px;
+}
+
+.aboutus-container {
+  margin-left: 30px;
+}
+
+.aboutus-container h3 {
+  border-left: 5px solid yellowgreen;
+  padding-left: 10px;
+}
+
+.lesson-container {
+  display: flex;
+}
+
+.lessons {
+  margin-left: 30px;
+}
+
+.mapinfo {
+  display: flex;
+}
+
+.googlemap {
+  padding-left: 100px;
+}
+
+.landmarks {
+  display: flex;
+}
+
+.landmark {
+  padding-right: 80px;
+}
+
+.landmark img {
+  height: 300px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.contact {
+  margin: 100px 80px;
+}
+
+.contact h3 {
+  font-size: 28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+input, textarea {
+  border: 1px solid #dee7ec;
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-list p {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.submit-bottom {
+  background-color: #dee7ec;
+  color: #889eab;
+  font-size: 18px;
+}
